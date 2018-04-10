@@ -10,7 +10,7 @@ class Bss0Spider(scrapy.Spider):
     name = 'bss0'
     allowed_domains = ['www.zhihu.com']
     custom_settings = {
-        # 'LOG_FILE': 'logs/followees.log',
+        'LOG_FILE': 'logs/followees.log',
         # 'JOBDIR': 'crawls/followees'
         'ITEM_PIPELINES': {
             # 'bss.pipelines.FolloweesRedisPipeline': 300,
