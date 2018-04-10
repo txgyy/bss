@@ -2,3 +2,4 @@ scrapy-redis
 pymysql
 sqlalchemy
 scrapy_fake_useragent
+brotli
